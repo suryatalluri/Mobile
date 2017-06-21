@@ -1,0 +1,17 @@
+<wm-page data-ng-controller="PAgePageController" name="page1">
+    <wm-left-panel name="left_panel1" content="leftnav"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1"></wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content name="page_content1" columnwidth="12">
+            <wm-form title="Select" class="panel-default" name="form1" captionposition="top" captionalign="left" method="post" enctype="application/x-www-form-urlencoded">
+                <wm-radioset name="radioset1" height="auto" dataset="Amanda Brown,  Brad Tucker, Chris Madison, Eric Lin, Jane Lisa" itemclass="list-group-item"></wm-radioset>
+            </wm-form>
+            <wm-composite name="composite1">
+                <wm-container class="col-xs-8" name="container1">
+                    <wm-radioset name="radioset2" height="auto" dataset="Amanda Brown,  Brad Tucker, Chris Madison, Eric Lin, Jane Lisa"></wm-radioset>
+                </wm-container>
+            </wm-composite>
+        </wm-page-content>
+    </wm-content>
+    <wm-mobile-tabbar name="mobile_tabbar1" dataset="home,star,music"></wm-mobile-tabbar>
+</wm-page>

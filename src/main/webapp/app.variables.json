@@ -1,20 +1,4 @@
 {
-  "appNotification" : {
-    "_id" : "wm-appErrorHandler-wm.NotificationVariable-1454664620943",
-    "name" : "appNotification",
-    "owner" : "App",
-    "category" : "wm.NotificationVariable",
-    "dataBinding" : [ {
-    "target" : "class",
-    "value" : "Error",
-    "type" : "list"
-    }, {
-    "target" : "toasterPosition",
-    "value" : "bottom right",
-    "type" : "list"
-    } ],
-    "operation" : "toast"
-  },
   "appInfo" : {
     "_id" : "wm-getAppInfo-wm.DeviceVariable-1444134876543",
     "name" : "appInfo",
@@ -28,6 +12,22 @@
       "cordovaversion" : "X.X.X"
     },
     "startUpdate" : true
+  },
+  "appNotification" : {
+    "_id" : "wm-appErrorHandler-wm.NotificationVariable-1454664620943",
+    "name" : "appNotification",
+    "owner" : "App",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "class",
+      "value" : "Error",
+      "type" : "list"
+    }, {
+      "target" : "toasterPosition",
+      "value" : "bottom right",
+      "type" : "list"
+    } ],
+    "operation" : "toast"
   },
   "deviceInfo" : {
     "_id" : "wm-deviceInfo-getDeviceInfo-wm.DeviceVariable-1444134852623",
@@ -46,6 +46,28 @@
     },
     "startUpdate" : true
   },
+  "FileServiceUploadFile" : {
+    "_id" : "wm-FileServiceUploadFile-wm.ServiceVariable-1498039560549",
+    "name" : "FileServiceUploadFile",
+    "owner" : "App",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ ],
+    "type" : "com.mobile.fileservice.FileService.FileUploadResponse",
+    "service" : "FileService",
+    "operation" : "uploadFile",
+    "operationId" : "FileController_uploadFile",
+    "serviceType" : "JavaService",
+    "dataSet" : [ ],
+    "isList" : false,
+    "maxResults" : 20,
+    "startUpdate" : false,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "isDefault" : true,
+    "controller" : "File"
+  },
   "goToPage_Main" : {
     "_id" : "wm-wm.NavigationVariable1389180517517",
     "name" : "goToPage_Main",
@@ -53,6 +75,28 @@
     "category" : "wm.NavigationVariable",
     "operation" : "gotoPage",
     "pageName" : "Main"
+  },
+  "goToPage_PAge" : {
+    "_id" : "wm-goToPage_PAge-wm.NavigationVariable-1498044135832",
+    "name" : "goToPage_PAge",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "PAge",
+    "dataSet" : [ ],
+    "pageTransitions" : "none"
+  },
+  "goToPage_sss" : {
+    "_id" : "wm-goToPage_sss-wm.NavigationVariable-1498045110433",
+    "name" : "goToPage_sss",
+    "owner" : "App",
+    "category" : "wm.NavigationVariable",
+    "dataBinding" : [ ],
+    "operation" : "gotoPage",
+    "pageName" : "sss",
+    "dataSet" : [ ],
+    "pageTransitions" : "none"
   },
   "supportedLocale" : {
     "_id" : "wm-wm.Variable1402640443182",

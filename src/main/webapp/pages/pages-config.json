@@ -11,7 +11,15 @@
   "type" : "PAGE",
   "params" : [ ]
 }, {
+  "name" : "PAge",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
   "name" : "leftnav",
   "type" : "LEFTNAV",
+  "params" : [ ]
+}, {
+  "name" : "sss",
+  "type" : "PAGE",
   "params" : [ ]
 } ]
